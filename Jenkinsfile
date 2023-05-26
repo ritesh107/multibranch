@@ -22,5 +22,9 @@ pipeline {
                 echo "This is 4th stage"
             }
         }
+        
     }
+    post {
+            echo "Hello"
+        }
 }
