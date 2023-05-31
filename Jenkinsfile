@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('First') {
             steps {
-                echo "This is 1st stage"
+                echo "This is Ritesh from 1st stage"
             }
         }
         stage('Second') {
             steps {
-                echo "This is 2nd stage"
+                echo "This is Kirti from 2nd stage"
             }
         }
         stage('Third') {
             steps {
-                echo "This is 3rd stage"
+                echo "This is Sakshi 3rd stage"
             }
         }
         stage('Fourth') {
